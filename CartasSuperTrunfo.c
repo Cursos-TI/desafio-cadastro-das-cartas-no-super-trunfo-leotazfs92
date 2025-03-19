@@ -7,6 +7,9 @@
 //Teste larissa
 
 int main() {
+
+    // Mensagem de boas vindas.
+    printf("Seja bem vindo, jogador!\nEspero que esteja pronto para se divertir, competir e conhecer o mundo!\n");
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
