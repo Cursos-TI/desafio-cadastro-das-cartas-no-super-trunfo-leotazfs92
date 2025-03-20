@@ -38,25 +38,25 @@ int main() {
     printf("Que bacana, você está se esforçando em suas pesquisas. Vamos para a próxima carta.\n");
 
     //Imprimindo as perguntas para o jogador e solicitando as entradas de dados
-    printf("Em qual estado fica essa cidade? ");
+    printf("Em qual estado fica essa cidade? \n");
     scanf(" %s", estado2);
 
-    printf("Qual o código da cidade? ");
+    printf("Qual o código da cidade? \n");
     scanf(" %s", cod_cidade2);
 
-    printf("Qual o nome da cidade? ");
+    printf("Qual o nome da cidade? \n");
     scanf(" %s", nome2);
 
-    printf("Qual é a população dessa cidade? ");
+    printf("Qual é a população dessa cidade? \n");
     scanf(" %i", &populacao2);
 
-    printf("Qual o tamanho de sua área em km²? ");
+    printf("Qual o tamanho de sua área em km²? \n");
     scanf(" %f", &area2);
 
-    printf("Quanto é o PIB? ");
+    printf("Quanto é o PIB? \n");
     scanf(" %f", &pib2);
 
-    printf("Pra terminar, quantos pontos turísticos ela tem? ");
+    printf("Pra terminar, quantos pontos turísticos ela tem? \n");
     scanf(" %i", &ponto_tur2);
 
     //Mensagem de interação com usuário
