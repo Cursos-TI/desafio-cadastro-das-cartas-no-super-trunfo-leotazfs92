@@ -8,33 +8,31 @@ int main() {
     printf("Você vai nos ajudar a construir o jogo.\nQuero ver se você consegue pesquisar e me responder os dados de algumas cidades.\nPronto?\nLet's Go!!\n\n");
     
     //Declaração das variaveis das cartas 1 e 2.
-    char estado1[30], estado2[30];
-    char cod_cidade1[30], cod_cidade2[30];
-    char nome1[30], nome2[30];
-    int populacao1, populacao2;
+    char estado1[30], estado2[30], cod_cidade1[30], cod_cidade2[30], nome1[30], nome2[30];
+    int populacao1, populacao2, ponto_tur1, ponto_tur2;
     float area1, area2, pib1, pib2;
     int ponto_tur1, ponto_tur2;
 
     //Imprimindo as perguntas para o jogador e solicitando as entradas de dados
-    printf("Em qual estado fica essa cidade? ");
+    printf("Em qual estado fica essa cidade? \n");
     scanf(" %c", estado1);
 
-    printf("Qual o código da cidade? ");
+    printf("Qual o código da cidade? \n");
     scanf(" %c", cod_cidade1);
 
-    printf("Qual o nome da cidade? ");
+    printf("Qual o nome da cidade? \n");
     scanf(" %c", nome1);
 
-    printf("Qual é a população dessa cidade? ");
+    printf("Qual é a população dessa cidade? \n");
     scanf(" %i", populacao1);
 
-    printf("Qual o tamanho de sua área em km²? ");
+    printf("Qual o tamanho de sua área em km²? \n");
     scanf(" %f", area1);
 
-    printf("Quanto é o PIB? ");
+    printf("Quanto é o PIB? \n");
     scanf(" %f", pib1);
 
-    printf("Pra terminar, quantos pontos turísticos ela tem? ");
+    printf("Pra terminar, quantos pontos turísticos ela tem? \n");
     scanf(" %i", ponto_tur1);
 
     //Nova mensagem para seguir para os dados da carta 2
