@@ -7,7 +7,7 @@ int main() {
     printf("Seja bem vindo, jogador!\nEspero que esteja pronto para se divertir, competir e conhecer o mundo!\n");
     printf("Você vai nos ajudar a construir o jogo.\nQuero ver se você consegue pesquisar e me responder os dados de algumas cidades.\nPronto?\nLet's Go!!\n\n");
     
-    //Declaração das variaveis da carta 1 e 2.
+    //Declaração das variaveis das cartas 1 e 2.
     char estado1[30], estado2[30];
     char cod_cidade1[30], cod_cidade2[30];
     char nome1[30], nome2[30];
@@ -63,15 +63,7 @@ int main() {
     scanf(" %i", ponto_tur2);
 
     //Mensagem de interação com usuário
-    printf("Excelente!! Confere aí as informações que você repassou!")
-
-
-
-
-
-
-    
-
+    printf("Excelente!! Confere aí as informações que você repassou!");
 
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
@@ -82,6 +74,5 @@ int main() {
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-
     return 0;
 }
